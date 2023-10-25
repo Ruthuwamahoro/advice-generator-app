@@ -22,6 +22,8 @@
         text-align: center;
         position: relative;
         font-style: italic;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     #me {
         display: none;
@@ -52,6 +54,8 @@
         text-align: center;
         position: relative;
         font-style: italic;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     #you {
         display: none;
