@@ -1,4 +1,4 @@
-@media screen and (max-width:1440px){
+@media screen and (min-width:1024px){
     body {
         background-color:hsl(218, 23%, 16%);
         color: white;
@@ -26,4 +26,35 @@
     #me {
         display: none;
     }
+}
+@media screen and (max-width: 320px) {
+    body{
+        background-color: hsl(218, 23%, 16%);
+        color: white;
+    }
+    .item {
+        background-color: hsl(217, 19%, 24%);
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        display: block;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+        top: 100px;
+    }
+    #message {
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        position: relative;
+        font-style: italic;
+    }
+    #you {
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    /* CSS for tablets and larger screens */
 }
